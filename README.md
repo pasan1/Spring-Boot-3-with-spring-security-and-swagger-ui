@@ -1,6 +1,7 @@
 # Spring Boot 3 Project with Spring Security and Swagger UI Integration
 
-This project is a Spring Boot 3 web application that integrates Spring Security for authentication and authorization, and Swagger UI for API documentation using OpenAPI 3.
+This project is a Spring Boot 3 web application that integrates Spring Security for authentication and authorization,
+and Swagger UI for API documentation using OpenAPI 3.
 
 ## Prerequisites
 
@@ -10,16 +11,24 @@ This project is a Spring Boot 3 web application that integrates Spring Security 
 ## Getting Started
 
 1. Clone this repository.
+   ```
    git clone https://github.com/pasan1/Spring-Boot-3-with-spring-security-and-swagger-ui.git
+   ```
 
 2. Navigate to the project folder.
-    cd spring-boot-security-swagger
+    ```
+   cd spring-boot-security-swagger
+   ```
 
 3. Build the project.
-    mvn clean install
+    ```
+   mvn clean install
+   ```
 
 4. Run the project.
-    mvn spring-boot:run
+    ```
+   mvn spring-boot:run
+   ```
 
 5. Access the Swagger UI at [http://localhost:8088/swagger-ui/index.html](http://localhost:8088/swagger-ui/index.html).
 
